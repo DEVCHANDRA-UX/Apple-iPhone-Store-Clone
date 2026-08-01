@@ -282,3 +282,14 @@ nav ul li:hover::after{
 
     transform:scale(1.08);
 }
+
+.products h2,
+.accessories h2,
+.why h2{
+
+    font-size:52px;
+
+    font-weight:800;
+
+    margin-bottom:60px;
+}
