@@ -248,3 +248,20 @@ nav ul li:hover::after{
 
     transform:scale(1.05);
 }
+
+.card{
+
+    background:white;
+
+    border-radius:var(--radius);
+
+    padding:30px;
+
+    text-align:center;
+
+    box-shadow:var(--shadow);
+
+    transition:.4s;
+
+    overflow:hidden;
+}
