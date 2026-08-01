@@ -362,3 +362,19 @@ footer li:hover{
 
     color:white;
 }
+
+.fade-up{
+
+    opacity:0;
+
+    transform:translateY(40px);
+
+    transition:1s;
+}
+
+.fade-up.show{
+
+    opacity:1;
+
+    transform:translateY(0);
+}
