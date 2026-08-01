@@ -241,3 +241,34 @@ menu.addEventListener("click", function(){
 
 });
 
+const toastBox=document.querySelector(".toast");
+
+function toast(message){
+
+toastBox.innerHTML=message;
+
+toastBox.classList.add("show");
+
+setTimeout(function(){
+
+toastBox.classList.remove("show");
+
+},2000);
+
+}
+
+const savedCart=localStorage.getItem("cart");
+
+if(savedCart){
+
+cart=JSON.parse(savedCart);
+
+}
+
+const savedWish=localStorage.getItem("wishlist");
+
+if(savedWish){
+
+wishlist=JSON.parse(savedWish);
+
+}

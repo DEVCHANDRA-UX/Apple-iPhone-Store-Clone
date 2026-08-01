@@ -556,3 +556,29 @@ background:pink;
 
 flex:1;
 }
+
+.toast{
+
+position:fixed;
+
+right:30px;
+
+top:100px;
+
+background:#111;
+
+color:white;
+
+padding:18px 28px;
+
+border-radius:10px;
+
+opacity:0;
+
+transition:.4s;
+}
+
+.toast.show{
+
+opacity:1;
+}
