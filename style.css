@@ -238,3 +238,13 @@ nav ul li:hover::after{
     }
 
 }
+
+.hero-image img{
+
+    transition:.5s;
+}
+
+.hero-image:hover img{
+
+    transform:scale(1.05);
+}
