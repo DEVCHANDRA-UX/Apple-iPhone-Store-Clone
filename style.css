@@ -206,6 +206,8 @@ nav ul li:hover::after{
     border:2px solid var(--primary);
 
     color:var(--primary);
+
+    margin-top: 5px;
 }
 
 .hero-text button:hover{

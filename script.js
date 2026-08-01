@@ -1,3 +1,43 @@
+const products = [
+
+{
+    id:1,
+    name:"iPhone 17",
+    price:799,
+    image:"images/iphone1.png",
+    rating:4.8,
+    badge:"New"
+},
+
+{
+    id:2,
+    name:"iPhone 17 Pro",
+    price:999,
+    image:"images/iphone2.png",
+    rating:5,
+    badge:"Best Seller"
+},
+
+{
+    id:3,
+    name:"Apple Watch",
+    price:399,
+    image:"images/watch.png",
+    rating:4.7,
+    badge:"Popular"
+},
+
+{
+    id:4,
+    name:"AirPods Pro",
+    price:249,
+    image:"images/airpods.png",
+    rating:4.9,
+    badge:"Top Rated"
+}
+
+];
+
 window.addEventListener("load", function(){
 
     document.querySelector(".loader").classList.add("hide");
