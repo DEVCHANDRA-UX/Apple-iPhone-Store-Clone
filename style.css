@@ -129,3 +129,13 @@ nav ul li::after{
 
     transition:.3s;
 }
+
+nav ul li:hover{
+
+    color:var(--primary);
+}
+
+nav ul li:hover::after{
+
+    width:100%;
+}
