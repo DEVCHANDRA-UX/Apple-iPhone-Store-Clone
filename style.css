@@ -198,3 +198,19 @@ nav ul li:hover::after{
 
     color:white;
 }
+
+.buy-btn{
+
+    background:white;
+
+    border:2px solid var(--primary);
+
+    color:var(--primary);
+}
+
+.hero-text button:hover{
+
+    transform:translateY(-4px);
+
+    box-shadow:0 15px 25px rgba(0,113,227,.25);
+}
