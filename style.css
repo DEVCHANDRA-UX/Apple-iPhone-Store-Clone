@@ -102,3 +102,12 @@ nav{
     padding:0 40px;
 }
 
+nav ul li{
+
+    position:relative;
+
+    font-weight:500;
+
+    transition:.3s;
+}
+
