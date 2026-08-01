@@ -582,3 +582,18 @@ transition:.4s;
 
 opacity:1;
 }
+
+.card{
+
+overflow:hidden;
+}
+
+.card img{
+
+transition:.5s;
+}
+
+.card:hover img{
+
+transform:scale(1.08);
+}
