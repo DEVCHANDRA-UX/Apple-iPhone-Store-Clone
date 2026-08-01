@@ -63,3 +63,25 @@ body{
     color:var(--text);
     overflow-x:hidden;
 }
+
+header{
+
+    position:fixed;
+
+    width:100%;
+
+    top:0;
+
+    left:0;
+
+    z-index:1000;
+
+    background:rgba(255,255,255,.75);
+
+    backdrop-filter:blur(18px);
+
+    border-bottom:1px solid rgba(255,255,255,.5);
+
+    transition:.4s;
+}
+
