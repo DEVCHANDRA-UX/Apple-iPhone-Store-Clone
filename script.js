@@ -33,3 +33,33 @@ window.addEventListener("scroll", function(){
     progress.style.width = percent + "%";
 
 });
+
+const topBtn = document.querySelector(".top-btn");
+
+window.addEventListener("scroll", function(){
+
+    if(window.scrollY > 500){
+
+        topBtn.style.display = "block";
+
+    }
+
+    else{
+
+        topBtn.style.display = "none";
+
+    }
+
+});
+
+topBtn.addEventListener("click", function(){
+
+    window.scrollTo({
+
+        top:0,
+
+        behavior:"smooth"
+
+    });
+
+});
