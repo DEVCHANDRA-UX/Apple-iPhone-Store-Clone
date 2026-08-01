@@ -498,3 +498,8 @@ footer li:hover{
 
     cursor:pointer;
 }
+
+nav ul.active{
+
+    display:flex;
+}

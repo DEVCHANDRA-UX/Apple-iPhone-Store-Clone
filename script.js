@@ -106,3 +106,12 @@ function reveal(){
 window.addEventListener("scroll", reveal);
 
 reveal();
+
+const menu = document.querySelector(".menu");
+
+menu.addEventListener("click", function(){
+
+    document.querySelector("nav ul").classList.toggle("active");
+
+});
+
