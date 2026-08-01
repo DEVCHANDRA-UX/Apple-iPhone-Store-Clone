@@ -331,3 +331,34 @@ nav ul li:hover::after{
 
     transform:scale(1.08);
 }
+
+footer{
+
+    background:#111;
+
+    color:white;
+
+    padding:80px;
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:50px;
+}
+
+footer li{
+
+    margin:12px 0;
+
+    color:#aaa;
+
+    cursor:pointer;
+
+    transition:.3s;
+}
+
+footer li:hover{
+
+    color:white;
+}
