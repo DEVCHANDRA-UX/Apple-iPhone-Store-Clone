@@ -459,3 +459,33 @@ footer li:hover{
 
     z-index:999999;
 }
+
+.top-btn{
+
+    position:fixed;
+
+    right:30px;
+
+    bottom:30px;
+
+    width:55px;
+
+    height:55px;
+
+    border-radius:50%;
+
+    background:#0071e3;
+
+    color:white;
+
+    font-size:22px;
+
+    display:none;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.2);
+}
+
+.top-btn:hover{
+
+    transform:translateY(-4px);
+}
