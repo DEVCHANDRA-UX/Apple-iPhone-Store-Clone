@@ -63,3 +63,24 @@ topBtn.addEventListener("click", function(){
     });
 
 });
+
+
+const links = document.querySelectorAll("nav a");
+
+links.forEach(function(link){
+
+    link.addEventListener("click", function(e){
+
+        e.preventDefault();
+
+        let id = this.getAttribute("href");
+
+        document.querySelector(id).scrollIntoView({
+
+            behavior:"smooth"
+
+        });
+
+    });
+
+});
