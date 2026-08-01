@@ -313,3 +313,21 @@ nav ul li:hover::after{
 
     box-shadow:0 25px 45px rgba(0,0,0,.12);
 }
+
+.card button{
+
+    background:var(--primary);
+
+    color:white;
+
+    padding:12px 28px;
+
+    border-radius:40px;
+
+    transition:.35s;
+}
+
+.card button:hover{
+
+    transform:scale(1.08);
+}
