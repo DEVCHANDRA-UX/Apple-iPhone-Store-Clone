@@ -38,6 +38,56 @@ const products = [
 
 ];
 
+const container=document.querySelector(".product-container");
+
+function displayProducts(){
+
+container.innerHTML="";
+
+products.forEach(function(product){
+
+container.innerHTML+=`
+
+<div class="card">
+
+<span class="badge">${product.badge}</span>
+
+<img src="${product.image}">
+
+<h3>${product.name}</h3>
+
+<p>$${product.price}</p>
+
+<p>⭐ ${product.rating}</p>
+
+<div class="buttons">
+
+<button class="cart-btn"
+onclick="addCart(${product.id})">
+
+Add To Cart
+
+</button>
+
+<button class="wish-btn"
+onclick="addWishlist(${product.id})">
+
+❤️
+
+</button>
+
+</div>
+
+</div>
+
+`;
+
+});
+
+}
+
+displayProducts();
+
 window.addEventListener("load", function(){
 
     document.querySelector(".loader").classList.add("hide");
