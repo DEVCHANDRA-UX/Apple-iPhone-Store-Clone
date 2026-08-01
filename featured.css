@@ -101,3 +101,24 @@
 
     margin-bottom:50px;
 }
+
+/* ===========================
+   FOOTER
+=========================== */
+
+footer{
+
+    background:#1d1d1f;
+
+    color:white;
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:50px;
+
+    padding:70px 80px;
+}
+
+
