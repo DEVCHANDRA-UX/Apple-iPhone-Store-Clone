@@ -293,3 +293,23 @@ nav ul li:hover::after{
 
     margin-bottom:60px;
 }
+
+.features div{
+
+    background:white;
+
+    border-radius:var(--radius);
+
+    padding:45px 30px;
+
+    box-shadow:var(--shadow);
+
+    transition:.4s;
+}
+
+.features div:hover{
+
+    transform:translateY(-10px);
+
+    box-shadow:0 25px 45px rgba(0,0,0,.12);
+}
