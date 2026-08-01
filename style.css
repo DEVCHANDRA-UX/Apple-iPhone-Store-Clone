@@ -214,3 +214,27 @@ nav ul li:hover::after{
 
     box-shadow:0 15px 25px rgba(0,113,227,.25);
 }
+
+.hero-image{
+
+    animation:floating 5s ease-in-out infinite;
+}
+
+@keyframes floating{
+
+    0%{
+
+        transform:translateY(0);
+    }
+
+    50%{
+
+        transform:translateY(-18px);
+    }
+
+    100%{
+
+        transform:translateY(0);
+    }
+
+}
