@@ -56,3 +56,10 @@ footer p{
     --shadow:0 15px 40px rgba(0,0,0,.08);
     --radius:22px;
 }
+
+body{
+    font-family:'Inter',sans-serif;
+    background:linear-gradient(to bottom,#ffffff,#fafafa);
+    color:var(--text);
+    overflow-x:hidden;
+}
