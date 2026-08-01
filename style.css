@@ -489,3 +489,12 @@ footer li:hover{
 
     transform:translateY(-4px);
 }
+
+.menu{
+
+    display:none;
+
+    font-size:28px;
+
+    cursor:pointer;
+}
