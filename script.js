@@ -21,3 +21,15 @@ window.addEventListener("scroll", function(){
     }
 
 });
+
+const progress = document.querySelector(".progress-bar");
+
+window.addEventListener("scroll", function(){
+
+    let height = document.documentElement.scrollHeight - window.innerHeight;
+
+    let percent = (window.scrollY / height) * 100;
+
+    progress.style.width = percent + "%";
+
+});
