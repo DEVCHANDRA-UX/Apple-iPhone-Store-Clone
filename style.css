@@ -139,3 +139,20 @@ nav ul li:hover::after{
 
     width:100%;
 }
+
+.hero{
+
+    min-height:100vh;
+
+    max-width:1300px;
+
+    margin:auto;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:space-between;
+
+    padding:90px 40px 0;
+}
