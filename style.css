@@ -415,3 +415,30 @@ footer li:hover{
     transition:.6s;
 }
 
+.apple-logo{
+
+    font-size:90px;
+
+    animation:zoom 1s infinite alternate;
+}
+
+.loader.hide{
+
+    opacity:0;
+
+    visibility:hidden;
+}
+
+@keyframes zoom{
+
+    from{
+
+        transform:scale(.8);
+    }
+
+    to{
+
+        transform:scale(1);
+    }
+
+}
