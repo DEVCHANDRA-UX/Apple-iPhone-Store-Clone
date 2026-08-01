@@ -88,6 +88,42 @@ onclick="addWishlist(${product.id})">
 
 displayProducts();
 
+let cart=[];
+
+function addCart(id){
+
+const product=products.find(function(item){
+
+return item.id===id;
+
+});
+
+cart.push(product);
+
+localStorage.setItem("cart",JSON.stringify(cart));
+
+toast(product.name+" added to cart");
+
+}
+
+let wishlist=[];
+
+function addWishlist(id){
+
+const product=products.find(function(item){
+
+return item.id===id;
+
+});
+
+wishlist.push(product);
+
+localStorage.setItem("wishlist",JSON.stringify(wishlist));
+
+toast(product.name+" added to wishlist");
+
+}
+
 window.addEventListener("load", function(){
 
     document.querySelector(".loader").classList.add("hide");
