@@ -156,3 +156,14 @@ nav ul li:hover::after{
 
     padding:90px 40px 0;
 }
+
+.hero-text h1{
+
+    font-size:78px;
+
+    font-weight:900;
+
+    line-height:1.05;
+
+    margin-bottom:20px;
+}
