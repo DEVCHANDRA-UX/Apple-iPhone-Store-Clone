@@ -84,3 +84,25 @@ links.forEach(function(link){
     });
 
 });
+
+const sections = document.querySelectorAll(".fade-up");
+
+function reveal(){
+
+    sections.forEach(function(section){
+
+        let top = section.getBoundingClientRect().top;
+
+        if(top < window.innerHeight - 120){
+
+            section.classList.add("show");
+
+        }
+
+    });
+
+}
+
+window.addEventListener("scroll", reveal);
+
+reveal();
