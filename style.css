@@ -178,3 +178,23 @@ nav ul li:hover::after{
 
     line-height:1.5;
 }
+
+.hero-text button{
+
+    padding:15px 34px;
+
+    border-radius:50px;
+
+    font-size:18px;
+
+    font-weight:600;
+
+    transition:.35s;
+}
+
+.hero-text button:first-child{
+
+    background:var(--primary);
+
+    color:white;
+}
